@@ -1,0 +1,23 @@
+1. git init, type in terminal
+
+2. 'git remote add origin  <git-url>
+
+    eg git remote add origin https://github.com/Zaleeeeeeee/MERN-Stack
+
+3. to check if linked or not linked: git remote -v
+
+4. git-status to check // compare online-repo and local-repo
+
+5. u - untracked files // new files
+
+6. to add file, git add <file-name>
+
+7. a - added // after git add <file-name>
+
+8. git commit-m "commit"
+
+9. git push origin <branch-name>
+    eg. git push origin master
+
+10. git add . to add all files
+

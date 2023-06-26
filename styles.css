@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+  a{
+    text-decoration: none;
+    margin: 2px;
+    padding: 5px;
+  }
+
+  header{
+    text-align: left;
+  }
+
+  header a:hover{
+    color: red;
+    font-size: x-large;
+  }
+
+header{
+  
+}
+
+
+div.card h1{
+  color: red;
+}
+
+h1,h2, hr,p, button{
+  margin: 16px 0px;
+}
+
+div.box{
+  border: 10px solid black;
+  padding: 20px;
+  width: 375px;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+.box .text-red{
+  color: red;
+}
+
+
+
+u{
+  padding-left: 16px;
+}
+
+body{
+  /* border: 1px solid; */
+  
+}
+
+.small{
+  width: 200px;
+  
+}
+
+a.active{
+  color: red;
+  font-size: 22px;
+}
+.button{
+  padding: 30px 10px;
+}
+
+.card{
+  border: 1px solid;
+  padding: 32px 10px;
+  text-align: center;
+  margin: 20px;
+  
+}
+
+.card:hover{
+  border: 1px solid red;
+  box-shadow: 18px 17px 53px;
+}
+
+div.card.active{
+  border: 1px solid red;
+  box-shadow: 18px 17px 53px;
+}
