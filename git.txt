@@ -21,7 +21,8 @@
 
 10. git add . to add all files
 
+11. git branch -r
 
-11. branches: main master
-
+12. git branch *main
+13. git checkout -b auth to create a new branch
 
