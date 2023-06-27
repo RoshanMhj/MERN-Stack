@@ -26,3 +26,11 @@
 12. git branch *main
 13. git checkout -b auth to create a new branch
 
+14. to switch between branches git checkout "name"
+        eg: git checkout master
+            git checkout auth
+
+15. to merge branches: git merge "branch-name"
+    eg: git merge auth //  should be in other branches to change
+
+16. git pull to pull new codes
