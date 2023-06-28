@@ -33,4 +33,6 @@
 15. to merge branches: git merge "branch-name"
     eg: git merge auth //  should be in other branches to change
 
-16. git pull to pull new codes
+16. git pull to pull new codes  
+17. git clone url
+
