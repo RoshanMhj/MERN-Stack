@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
+      rel="stylesheet"
+    />
+    <title>Card</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        border: 1px solid teal;
+        width: 35%;
+        margin: auto;
+        padding: 1rem;
+        margin-top: 5rem;
+        text-align: left;
+        border-radius: 20px;
+      }
+
+      img {
+        height: 250px;
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      body {
+        font-family: "Jost", sans-serif;
+      }
+
+      .btn-top {
+        color: gray;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 16px;
+        padding: 5px;
+        margin: 5px;
+        width: 4rem;
+      }
+
+      .btn-top:hover {
+        background-color: aqua;
+        border: 1px solid aqua;
+        color: white;
+      }
+
+      .text-box p {
+        color: gray;
+      }
+
+      .center-button {
+        text-align: center;
+      }
+
+      .center-button button {
+        background-color: #a1c2f1;
+        color: blue;
+        margin: auto;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="lake.jpg" alt="" />
+      </div>
+      <div class="top-button">
+        <button class="btn-top">Nature</button>
+        <button class="btn-top">Lake</button>
+      </div>
+
+      <div class="text-box">
+        <h2>Lago di Braies</h2>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
+          sequi debitis. Laudantium facere dolorum at soluta animi minima.
+          Pariatur natus beatae rem quidem illum ab est officia magnam dolores
+          omnis.
+        </p>
+      </div>
+
+      <div class="center-button">
+        <button>Read More</button>
+      </div>
+    </div>
+  </body>
+</html>

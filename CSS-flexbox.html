@@ -1,76 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flexbox</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
 
     <style>
+      * {
+        box-sizing: border-box;
+      }
 
-          *{
-            box-sizing: border-box;
-          }
+      .flexbox {
+        border: 3px solid black;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
 
+      .flex-item {
+        height: 25%;
+        width: 100px;
+        background-color: aqua;
+        border: 1px solid white;
+      }
 
-          .flexbox{
-            border: 3px solid black;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-          }
-
-          .flex-item{
-            height: 25%;
-            width: 100px;
-            background-color: aqua;
-            border: 1px solid white;
-          }
-
-         
-
-          /* .wrapper{
+      /* .wrapper{
             height: 100%;
             margin-left: 400px;
           } */
-
-
-
     </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="flex-item">item</div>
 
+      <div class="flex-item">item</div>
 
+      <div class="flex-item">item</div>
 
+      <div class="flex-item">item</div>
+    </div>
 
-</head>
-<body>
-    
-  <div class="flexbox">
-
-    
-
-
-    <div class="flex-item">item</div>
-
-
-    <div class="flex-item">item</div>
-
-
-    <div class="flex-item">item</div>
-
-    <div class="flex-item">item</div>
-    
-  
-
-</div>
-  
-  
-  
-  
-  
-  
-  
-  
-  <!-- <div class="flexbox">
+    <!-- <div class="flexbox">
 
         <div class="wrapper">
 
@@ -88,5 +60,5 @@
       </div>
 
       </div> -->
-</body>
+  </body>
 </html>
