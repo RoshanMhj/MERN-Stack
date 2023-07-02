@@ -34,4 +34,20 @@ div:first-child, nth-child to add pseudo class
 
 >> code . to open vs code
 
+object-fit to fit image
+
+background size
+
+
+CSS - Flexbox:
+
+  justify contents
+  align items
+
+flex-grow to take remaining spaces
+
+align-self - used in children tags
+
+
+
 

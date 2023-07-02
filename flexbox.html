@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flex</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .parent {
+        border: 2px solid red;
+        display: flex;
+        height: 100vh;
+        width: 500px;
+        align-items: center;
+      }
+
+      .child {
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+      }
+
+      .second,
+      .third {
+        background-color: teal;
+      }
+
+      .second {
+        align-self: flex-start;
+        flex-grow: 1;
+      }
+
+      .third {
+        flex-grow: 2;
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child"><p>child1</p></div>
+      <div class="child second"><p>child2</p></div>
+      <div class="child third"><p>child3</p></div>
+      <div class="child fourth"><p>child4</p></div>
+    </div>
+  </body>
+</html>
