@@ -7,6 +7,13 @@
     <title>CSS Positions</title>
 
     <style>
+      /* reset css */
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
       .box {
         border: 1px solid black;
         height: 100px;
@@ -31,7 +38,7 @@
 
       .absolute {
         position: absolute;
-        top: 0;
+        top: 100px;
         right: 0;
         background-color: aquamarine;
       }
@@ -40,6 +47,7 @@
         position: fixed;
         top: 0;
         background-color: blue;
+        /* z-index: 2; */
       }
 
       .sticky {
@@ -48,30 +56,41 @@
         background-color: bisque;
       }
 
-      nav {
+      header {
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 2;
       }
 
       nav ul {
         list-style-type: none;
         display: flex;
         justify-content: space-around;
-        background-color: yellow;
+        background-color: dimgray;
+        padding: 1rem;
+      }
+
+      a {
+        color: red;
+      }
+
+      .sticky-box {
+        border: 3px solid red;
       }
     </style>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Homee</a></li>
-        <li><a href="#">home</a></li>
-        <li><a href="#">home</a></li>
-        <li><a href="#">home</a></li>
-        <li><a href="#">home</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Homee</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="static box">Static</div>
 
     <div class="wrapper">
@@ -79,7 +98,89 @@
     </div>
     <div class="absolute box">Absolute</div>
     <div class="fixed box">Fixed</div>
-    <div class="sticky box">Sticky</div>
+
+    <div class="sticky-box">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum
+        accusantium dolor nostrum quis, consectetur deleniti possimus
+        voluptatibus. Alias velit voluptate ad nam quos odit aliquid commodi
+        tenetur quod laboriosam.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum
+        accusantium dolor nostrum quis, consectetur deleniti possimus
+        voluptatibus. Alias velit voluptate ad nam quos odit aliquid commodi
+        tenetur quod laboriosam.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum
+        accusantium dolor nostrum quis, consectetur deleniti possimus
+        voluptatibus. Alias velit voluptate ad nam quos odit aliquid commodi
+        tenetur quod laboriosam.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum
+        accusantium dolor nostrum quis, consectetur deleniti possimus
+        voluptatibus. Alias velit voluptate ad nam quos odit aliquid commodi
+        tenetur quod laboriosam.
+      </p>
+      <div class="sticky box">Sticky</div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad
+        reprehenderit voluptatem obcaecati dicta dignissimos? Quis,
+        exercitationem! Delectus accusantium cum aliquid velit, aut deleniti
+        fugiat nobis, illo quia, pariatur doloremque.
+      </p>
+    </div>
 
     <hr />
     <p>

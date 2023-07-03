@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .project {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 25%;
+        padding: 1rem;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+      }
+
+      @media (max-width: 992px) {
+        .project {
+          width: 50%;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .project {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Projects</h1>
+    <hr />
+
+    <div class="container">
+      <div class="project">
+        <img src="https://picsum.photos/536/354" alt="" />
+        <h2>Project 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          autem veritatis obcaecati atque eius at distinctio tempore aliquam
+          dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+          quasi corrupti quibusdam!
+        </p>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/536/354" alt="" />
+        <h2>Project 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          autem veritatis obcaecati atque eius at distinctio tempore aliquam
+          dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+          quasi corrupti quibusdam!
+        </p>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/536/354" alt="" />
+        <h2>Project 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          autem veritatis obcaecati atque eius at distinctio tempore aliquam
+          dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+          quasi corrupti quibusdam!
+        </p>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/536/354" alt="" />
+        <h2>Project 4</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          autem veritatis obcaecati atque eius at distinctio tempore aliquam
+          dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+          quasi corrupti quibusdam!
+        </p>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/536/354" alt="" />
+        <h2>Project 4</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          autem veritatis obcaecati atque eius at distinctio tempore aliquam
+          dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+          quasi corrupti quibusdam!
+        </p>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/536/354" alt="" />
+        <h2>Project 5</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          autem veritatis obcaecati atque eius at distinctio tempore aliquam
+          dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+          quasi corrupti quibusdam!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
