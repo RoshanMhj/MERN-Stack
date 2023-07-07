@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-2</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: -1rem;
+      }
+
+      .project {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 1rem;
+        overflow: hidden;
+      }
+
+      .project:hover {
+        box-shadow: 10px 10px 50px;
+        border: none;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+      }
+
+      .wrapper {
+        width: 25%;
+        padding-right: 1rem;
+      }
+
+      .wrapper:hover {
+        transform: translate(10px, 10px);
+      }
+
+      .wrapper img:hover {
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 992px) {
+        .project {
+          width: 50%;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .project {
+          width: 100%;
+        }
+      }
+
+      /* @media (min-width: 577px) {
+        .project {
+          width: 23.75%;
+          margin: 5px;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>Projects</h1>
+    <hr />
+
+    <div class="container">
+      <div class="wrapper">
+        <div class="project">
+          <img src="https://picsum.photos/536/354" alt="" />
+          <h2>Project 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            autem veritatis obcaecati atque eius at distinctio tempore aliquam
+            dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+            quasi corrupti quibusdam!
+          </p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="project">
+          <img src="https://picsum.photos/536/354" alt="" />
+          <h2>Project 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            autem veritatis obcaecati atque eius at distinctio tempore aliquam
+            dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+            quasi corrupti quibusdam!
+          </p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="project">
+          <img src="https://picsum.photos/536/354" alt="" />
+          <h2>Project 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            autem veritatis obcaecati atque eius at distinctio tempore aliquam
+            dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+            quasi corrupti quibusdam!
+          </p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="project">
+          <img src="https://picsum.photos/536/354" alt="" />
+          <h2>Project 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            autem veritatis obcaecati atque eius at distinctio tempore aliquam
+            dolorum est quam corrupti, aliquid dignissimos et adipisci? Natus
+            quasi corrupti quibusdam!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

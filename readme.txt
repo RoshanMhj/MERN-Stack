@@ -48,6 +48,8 @@ flex-grow to take remaining spaces
 
 align-self - used in children tags
 
+transform to move box in x axis or y axis
+
 
 
 

@@ -1,0 +1,218 @@
+/* CSS Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Global CSS */
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* First Page CSS */
+
+.vl {
+  border-left: 1px solid #eeeff2;
+}
+
+.first-page-main {
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+
+.left ul {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  align-items: center;
+}
+
+.mid ul {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  align-items: center;
+  color: #4f5665;
+}
+
+.right ul {
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li.nav-sign {
+  font-weight: 800;
+}
+
+button.nav-btn {
+  background-color: #f5f5f5;
+  border: 1px solid red;
+  border-radius: 50px;
+  color: red;
+  padding: 2px;
+  height: 45px;
+  width: 150px;
+  font-weight: bold;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #4f5665;
+  z-index: 10;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.first-page {
+  display: flex;
+  /* border: 3px solid; */
+  margin-top: 5rem;
+  padding: 1rem 4rem;
+}
+
+.first-page .text-section {
+  width: 50%;
+}
+
+.first-page .text-section button {
+  margin-top: 3rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 16px 90px #f54747;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f54747;
+  padding: 15px 70px 15px 70px;
+  text-decoration: none;
+}
+
+p.big {
+  font-size: 35px;
+  font-weight: 500px;
+  line-height: 50px;
+}
+
+p.small-text {
+  margin-top: 1rem;
+  color: #4f5665;
+}
+
+.first-page .image-section {
+  width: 50%;
+}
+
+.first-page .image-section img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.first-page-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.first-page-footer footer {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-right: 1px solid;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.first-page-footer .left,
+.first-page-footer .middle,
+.first-page-footer .right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.first-page-footer .logo {
+  background-color: #ffecec;
+  width: 55px;
+  height: 55px;
+  border-radius: 70px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-page-footer footer strong {
+  font-weight: 700;
+}
+
+/* Second Page CSS */
+
+.second-page-main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  gap: 10rem;
+}
+
+.second-page-main .image-section {
+  width: 50%;
+}
+
+.second-page-main .text-section {
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.second-page-main .text-section h2 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.second-page-main .text-section .small-text {
+  font-size: 16px;
+  line-height: 30px;
+}
+.second-page-main .text-section h2,
+.second-page-main .text-section .small-text {
+  margin-top: 2rem;
+}
+
+.second-page-main .features-section {
+  margin-top: 2rem;
+}
+
+.second-page-main .features-section .first,
+.second-page-main .features-section .second,
+.second-page-main .features-section .third,
+.second-page-main .features-section .fourth {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: #4f5665;
+}
